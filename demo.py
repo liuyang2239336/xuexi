@@ -1,4 +1,4 @@
-'''
+
 print("hello world")
 print(233,"哈哈哈",1,2,3,2,2,2,2,"233")
 print("haha"+"11")
@@ -89,4 +89,4 @@ else:
     db["username"] = a
     db["password"] = b 
     print(db)
-    '''
+    
