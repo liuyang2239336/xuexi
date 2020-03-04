@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: gunicorn/20.0.4
+Date: Wed, 26 Feb 2020 14:10:46 GMT
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 63
+Access-Control-Allow-Origin: b''://b''
+Access-Control-Allow-Method: *
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Vary: Cookie
+Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ8Zg.rPpi6z0nmLiL5N0hcsR_-e_Y_aE; HttpOnly; Path=/
+

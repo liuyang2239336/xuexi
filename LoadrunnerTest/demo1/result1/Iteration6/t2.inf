@@ -1,0 +1,12 @@
+[t2]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=text/plain
+StepName=Custom Request: login
+Total=1
+FileName1=t2.UNK
+RequestHeaderFile=t2_RequestHeader.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+URL1=file:
+[AdditionalInfo]
+IsIgnorable=1

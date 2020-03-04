@@ -1,0 +1,380 @@
+Virtual User Script started at : 2020-02-26 21:47:51
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for WIN32; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2020-02-26 13:47:51  	[MsgId: MMSG-26000]
+LOCAL start date/time       : 2020-02-26 21:47:51  	[MsgId: MMSG-26000]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26000]
+Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-26845]
+    Verification checks: No  	[MsgId: MMSG-26845]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-26845]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-26845]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-26845]
+    HTTP errors as warnings: No  	[MsgId: MMSG-26845]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-26845]
+    HTTP version: 1.1  	[MsgId: MMSG-26845]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-26845]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-26844]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-26845]
+    Simulate browser cache: Yes  	[MsgId: MMSG-26845]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-26845]
+            Additional URLs requiring content: None  	[MsgId: MMSG-26845]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-26845]
+    Page download timeout (sec): 120  	[MsgId: MMSG-26844]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-26845]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-26845]
+    ContentCheck script-level file: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1\LrwiAedScript.xml"  	[MsgId: MMSG-26842]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-26845]
+    Enable connection data points: Yes  	[MsgId: MMSG-26845]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-26845]
+    Snapshot on error: No  	[MsgId: MMSG-26845]
+    Define each step as a transaction: No  	[MsgId: MMSG-26845]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26845]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26845]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26845]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26845]
+    Graph pages per second: No  	[MsgId: MMSG-26845]
+    Web recorder version ID: 8  	[MsgId: MMSG-26844]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=636ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=645ms: Connected socket [0] from 192.168.1.104:13219 to 132.232.44.158:2333 in 7 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=647ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=1)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=712ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=1)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 13:47:52 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=794ms: 6844-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=1)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 18, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=2112ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 1.8844 Wasted Time: 0.3621).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Warning: The string '"username":"zhangsan","password":"a1234567"' with parameter delimiters is not a parameter.
+Action.c(39): t=2481ms: Already connected [0] to 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=2493ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=2)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=2546ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=2)
+Action.c(39):     {"username":"zhangsan","password":"a1234567"}
+Action.c(39): t=2713ms: 545-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=2)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 13:47:54 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 225\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=.eJwlzMENhCAQBdBe_tmDCCrQDTKjS8QhweWyxt7XxFfAu5DLloRrLVXaAd93aCfXJGuBv
+Action.c(39):     yAp7hIOhpeWc4dv2VngYWheSNnFORPJ6TiqyQZljO41rW6gwbImOxOeLhG8dZN653fD7xNkO4Pgvv9GryoT.XlZ3Cg
+Action.c(39):     .nW1yMIE8sQV-oaoVT-tJeixolrM; HttpOnly; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=2801ms: 225-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=2)
+Action.c(39):     {\n
+Action.c(39):       "data": {\n
+Action.c(39):         "token": "4d7bd18b994cd93c5168a144303df92d28e3d87d", \n
+Action.c(39):         "userinfo": {\n
+Action.c(39):           "headpic": "headimg.jpg", \n
+Action.c(39):           "nickname": null, \n
+Action.c(39):           "uid": 8961\n
+Action.c(39):         }\n
+Action.c(39):       }, \n
+Action.c(39):       "msg": "登录成功�\x81", \n
+Action.c(39):       "status": 200\n
+Action.c(39):     }\n
+Action.c(39): Notify: Saving Parameter "token1 = 4d7bd18b994cd93c5168a144303df92d28e3d87d".
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=2864ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(39): web_custom_request("login") was successful, 225 body bytes, 545 header bytes  	[MsgId: MMSG-26386]
+Action.c(49): Notify: Transaction "login" ended with "Pass" status (Duration: 0.5215 Wasted Time: 0.0047).
+Action.c(51): Notify: Transaction "big" ended with "Pass" status (Duration: 2.4512 Wasted Time: 0.3668).
+Action.c(56): web_add_header("token") started  	[MsgId: MMSG-26355]
+Action.c(56): Notify: Parameter Substitution: parameter "token1" =  "4d7bd18b994cd93c5168a144303df92d28e3d87d"
+Action.c(56): An unrecognized header ("token") is being added  	[MsgId: MMSG-26595]
+Action.c(56): "token: 4d7bd18b994cd93c5168a144303df92d28e3d87d" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(56): web_add_header("token") was successful  	[MsgId: MMSG-26392]
+Action.c(59): Notify: Transaction "fellgoods" started.
+Action.c(60): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(60): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(62): web_custom_request("userfellgoods") started  	[MsgId: MMSG-26355]
+Action.c(62): Warning: The string '"ctype":"0","gid":1' with parameter delimiters is not a parameter.
+Action.c(62): t=3023ms: Already connected [0] to 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(62): t=3029ms: 520-byte request headers for "http://132.232.44.158:2333/userfellgoods" (RelFrameId=1, Internal ID=3)
+Action.c(62):     POST /userfellgoods HTTP/1.1\r\n
+Action.c(62):     Content-Type: application/json\r\n
+Action.c(62):     Cache-Control: no-cache\r\n
+Action.c(62):     token: 4d7bd18b994cd93c5168a144303df92d28e3d87d\r\n
+Action.c(62):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(62):     Accept-Encoding: gzip, deflate\r\n
+Action.c(62):     Accept: */*\r\n
+Action.c(62):     Connection: Keep-Alive\r\n
+Action.c(62):     Host: 132.232.44.158:2333\r\n
+Action.c(62):     Cookie: session=.eJwlzMENhCAQBdBe_tmDCCrQDTKjS8QhweWyxt7XxFfAu5DLloRrLVXaAd93aCfXJGuBvyAp7
+Action.c(62):     hIOhpeWc4dv2VngYWheSNnFORPJ6TiqyQZljO41rW6gwbImOxOeLhG8dZN653fD7xNkO4Pgvv9GryoT.XlZ3Cg.nW1
+Action.c(62):     yMIE8sQV-oaoVT-tJeixolrM\r\n
+Action.c(62):     Content-Length: 21\r\n
+Action.c(62):     \r\n
+Action.c(62): t=3125ms: 21-byte request body for "http://132.232.44.158:2333/userfellgoods" (RelFrameId=1, Internal ID=3)
+Action.c(62):     {"ctype":"0","gid":1}
+Action.c(62): t=3159ms: 316-byte response headers for "http://132.232.44.158:2333/userfellgoods" (RelFrameId=1, Internal ID=3)
+Action.c(62):     HTTP/1.1 200 OK\r\n
+Action.c(62):     Server: gunicorn/20.0.4\r\n
+Action.c(62):     Date: Wed, 26 Feb 2020 13:47:54 GMT\r\n
+Action.c(62):     Connection: keep-alive\r\n
+Action.c(62):     Content-Type: application/json\r\n
+Action.c(62):     Content-Length: 87\r\n
+Action.c(62):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(62):     Access-Control-Allow-Method: *\r\n
+Action.c(62):     Access-Control-Allow-Headers: *\r\n
+Action.c(62):     Access-Control-Allow-Credentials: true\r\n
+Action.c(62):     Vary: Cookie\r\n
+Action.c(62):     \r\n
+Action.c(62): t=3220ms: 87-byte response body for "http://132.232.44.158:2333/userfellgoods" (RelFrameId=1, Internal ID=3)
+Action.c(62):     {\n
+Action.c(62):       "data": [\n
+Action.c(62):         true, \n
+Action.c(62):         true\n
+Action.c(62):       ], \n
+Action.c(62):       "msg": "点赞成功�\x81", \n
+Action.c(62):       "status": 200\n
+Action.c(62):     }\n
+Action.c(62): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/userfellgoods"  	[MsgId: MMSG-26548]
+Action.c(62): t=3278ms: Request done "http://132.232.44.158:2333/userfellgoods"  	[MsgId: MMSG-26000]
+Action.c(62): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(62): web_custom_request("userfellgoods") was successful, 87 body bytes, 316 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "fellgoods" ended with "Pass" status (Duration: 0.3306 Wasted Time: 0.0055).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=3434ms: Closed connection [0] to 132.232.44.158:2333 after completing 3 requests  	[MsgId: MMSG-26000]

@@ -1,0 +1,7 @@
+GET /getcoures?pagenum=1 HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: 132.232.44.158:2333
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\snake\vscodeprojects\ljtest202001\loadrunnertest\demo1\\logfile.log
+c:\users\snake\vscodeprojects\ljtest202001\loadrunnertest\demo1\\combined_demo1.c
+c:\users\snake\vscodeprojects\ljtest202001\loadrunnertest\demo1\\pre_cci.c

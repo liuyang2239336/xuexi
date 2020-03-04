@@ -1,0 +1,2818 @@
+Virtual User Script started at : 2020-02-26 22:07:14
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.0.0 for WIN32; build 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2020-02-26 14:07:14  	[MsgId: MMSG-26000]
+LOCAL start date/time       : 2020-02-26 22:07:14  	[MsgId: MMSG-26000]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26000]
+Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-26845]
+    Verification checks: No  	[MsgId: MMSG-26845]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-26845]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-26845]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-26845]
+    HTTP errors as warnings: No  	[MsgId: MMSG-26845]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-26845]
+    HTTP version: 1.1  	[MsgId: MMSG-26845]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-26845]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-26844]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-26845]
+    Simulate browser cache: Yes  	[MsgId: MMSG-26845]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-26845]
+            Additional URLs requiring content: None  	[MsgId: MMSG-26845]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-26845]
+    Page download timeout (sec): 120  	[MsgId: MMSG-26844]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-26845]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-26845]
+    ContentCheck script-level file: "C:\Users\SNake\VSCodeProjects\ljtest202001\LoadrunnerTest\demo1\LrwiAedScript.xml"  	[MsgId: MMSG-26842]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-26845]
+    Enable connection data points: Yes  	[MsgId: MMSG-26845]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-26845]
+    Snapshot on error: No  	[MsgId: MMSG-26845]
+    Define each step as a transaction: No  	[MsgId: MMSG-26845]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26845]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26845]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26845]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26845]
+    Graph pages per second: No  	[MsgId: MMSG-26845]
+    Web recorder version ID: 8  	[MsgId: MMSG-26844]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=3639ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=3708ms: Connected socket [0] from 192.168.1.104:13485 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=3803ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=1)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=3977ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=1)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:07:17 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=4405ms: 6844-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=1)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 26, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=10423ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=10432ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=10529ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 8.7780 Wasted Time: 0.3826).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot100"
+Action.c(39): t=13204ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=13313ms: Connected socket [0] from 192.168.1.104:13492 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=13408ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=2)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=14138ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=2)
+Action.c(39):     {"username":"robot100","password":"a1234567"}
+Action.c(39): t=14522ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=2)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:07:28 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ7oA.9RUMJlRByLlpdvwVcF-1-4AVtIA; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=15390ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=2)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=15926ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 4.0780 Wasted Time: 0.0017).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 13.4815 Wasted Time: 0.3843).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Action.c(39): t=16663ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(39): Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter password = 2 [table  = password].
+Notify: Getting new value for parameter 'password': table = 'NewParam.dat' column = '1' row = '2'.
+Notify: Next row for parameter NewParam = 2 [table  = NewParam].
+Notify: Getting new value for parameter 'NewParam': table = 'NewParam.dat' column = '0' row = '2'.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=19051ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=19158ms: Connected socket [0] from 192.168.1.104:13493 to 132.232.44.158:2333 in 7 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=19254ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=3)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=19609ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=3)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:07:33 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=20542ms: 6844-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=3)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 31, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=33920ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=33922ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=33926ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 16.2121 Wasted Time: 0.0016).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot101"
+Action.c(39): t=36293ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=36403ms: Connected socket [0] from 192.168.1.104:13494 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=36501ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=4)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=37234ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=4)
+Action.c(39):     {"username":"robot101","password":"a1234567"}
+Action.c(39): t=37602ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=4)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:07:51 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ7tw.ALjx7zTc70mkjdU9FsnSuzTUP0I; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=38484ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=4)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=39004ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 4.3780 Wasted Time: 0.0012).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 21.5076 Wasted Time: 0.0028).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Action.c(39): t=39845ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(39): Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter password = 3 [table  = password].
+Notify: Getting new value for parameter 'password': table = 'NewParam.dat' column = '1' row = '3'.
+Notify: Next row for parameter NewParam = 3 [table  = NewParam].
+Notify: Getting new value for parameter 'NewParam': table = 'NewParam.dat' column = '0' row = '3'.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=41927ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=42036ms: Connected socket [0] from 192.168.1.104:13495 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=42131ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=5)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=42669ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=5)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:07:56 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=43517ms: 6844-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=5)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 31, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=56017ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=56120ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=56221ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 15.4360 Wasted Time: 0.0014).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot102"
+Action.c(39): t=58286ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=58396ms: Connected socket [0] from 192.168.1.104:13499 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=58494ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=6)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=59328ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=6)
+Action.c(39):     {"username":"robot102","password":"a1234567"}
+Action.c(39): t=59603ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=6)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:08:13 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ7zQ.TlHbLbf4-F2-Diy3K98eZU4WhQs; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=60481ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=6)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=61000ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 4.4708 Wasted Time: 0.0013).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 20.5188 Wasted Time: 0.0027).
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Action.c(39): t=61735ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(39): Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter password = 4 [table  = password].
+Notify: Getting new value for parameter 'password': table = 'NewParam.dat' column = '1' row = '4'.
+Notify: Next row for parameter NewParam = 4 [table  = NewParam].
+Notify: Getting new value for parameter 'NewParam': table = 'NewParam.dat' column = '0' row = '4'.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=63946ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=63959ms: Connected socket [0] from 192.168.1.104:13500 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=64053ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=7)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=64702ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=7)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:08:18 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=65430ms: 6844-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=7)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 31, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=77561ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=77665ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=77668ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 14.8607 Wasted Time: 0.0015).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot103"
+Action.c(39): t=79939ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=79950ms: Connected socket [0] from 192.168.1.104:13501 to 132.232.44.158:2333 in 7 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=80046ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=8)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=80910ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=8)
+Action.c(39):     {"username":"robot103","password":"a1234567"}
+Action.c(39): t=81182ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=8)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:08:35 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ74w.kS8YB3a23B4v4YyfLgmMRSJfXQs; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=82373ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=8)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=82910ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 4.6249 Wasted Time: 0.0016).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 20.3047 Wasted Time: 0.0031).
+Ending action Action.
+Ending iteration 4.
+Starting iteration 5.
+Action.c(39): t=83640ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(39): Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter password = 5 [table  = password].
+Notify: Getting new value for parameter 'password': table = 'NewParam.dat' column = '1' row = '5'.
+Notify: Next row for parameter NewParam = 5 [table  = NewParam].
+Notify: Getting new value for parameter 'NewParam': table = 'NewParam.dat' column = '0' row = '5'.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=85750ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=85862ms: Connected socket [0] from 192.168.1.104:13502 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=85957ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=9)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=86215ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=9)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:08:40 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=86859ms: 4236-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=9)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 31, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):           
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=92518ms: 2608-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=9)
+Action.c(15):       "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): t=99262ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=99366ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=99369ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 14.7955 Wasted Time: 0.0017).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot104"
+Action.c(39): t=101673ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=101783ms: Connected socket [0] from 192.168.1.104:13505 to 132.232.44.158:2333 in 7 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=101881ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=10)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=102711ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=10)
+Action.c(39):     {"username":"robot104","password":"a1234567"}
+Action.c(39): t=103082ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=10)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:08:57 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ7-Q.zk4vvQ4DsAdSk36iev3lgwWW33o; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=103872ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=10)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=104381ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 4.6610 Wasted Time: 0.0070).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 20.1882 Wasted Time: 0.0086).
+Ending action Action.
+Ending iteration 5.
+Starting iteration 6.
+Action.c(39): t=105313ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(39): Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter password = 6 [table  = password].
+Notify: Getting new value for parameter 'password': table = 'NewParam.dat' column = '1' row = '6'.
+Notify: Next row for parameter NewParam = 6 [table  = NewParam].
+Notify: Getting new value for parameter 'NewParam': table = 'NewParam.dat' column = '0' row = '6'.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=107513ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=107632ms: Connected socket [0] from 192.168.1.104:13507 to 132.232.44.158:2333 in 9 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=107726ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=11)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=108167ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=11)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:09:02 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=108996ms: 4236-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=11)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 31, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):           
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=114856ms: 2608-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=11)
+Action.c(15):       "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): t=121412ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=121416ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=121519ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 15.3598 Wasted Time: 0.0014).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot105"
+Action.c(39): t=123586ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=123697ms: Connected socket [0] from 192.168.1.104:13510 to 132.232.44.158:2333 in 9 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=123791ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=12)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=124424ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=12)
+Action.c(39):     {"username":"robot105","password":"a1234567"}
+Action.c(39): t=124694ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=12)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:09:18 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ8Dg.6jWNMNC7zWqOOcXu0GbTxJtC9uE; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=125470ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=12)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=125992ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 3.8547 Wasted Time: 0.0014).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 20.0354 Wasted Time: 0.0029).
+Ending action Action.
+Ending iteration 6.
+Starting iteration 7.
+Action.c(39): t=126732ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(39): Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter password = 7 [table  = password].
+Notify: Getting new value for parameter 'password': table = 'NewParam.dat' column = '1' row = '7'.
+Notify: Next row for parameter NewParam = 7 [table  = NewParam].
+Notify: Getting new value for parameter 'NewParam': table = 'NewParam.dat' column = '0' row = '7'.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=128910ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=128921ms: Connected socket [0] from 192.168.1.104:13513 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=129016ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=13)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=129658ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=13)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:09:23 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=130478ms: 6844-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=13)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 28, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=143559ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=143562ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=143664ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 16.0979 Wasted Time: 0.0021).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot106"
+Action.c(39): t=145735ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=145855ms: Connected socket [0] from 192.168.1.104:13523 to 132.232.44.158:2333 in 18 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=145956ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=14)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=146889ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=14)
+Action.c(39):     {"username":"robot106","password":"a1234567"}
+Action.c(39): t=147154ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=14)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:09:41 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ8JQ.-Bhxbjtnnsog9boyxpf6wIkn2Lg; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=148059ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=14)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=148672ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 4.4929 Wasted Time: 0.0013).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 21.2086 Wasted Time: 0.0034).
+Ending action Action.
+Ending iteration 7.
+Starting iteration 8.
+Action.c(39): t=149411ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(39): Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter password = 8 [table  = password].
+Notify: Getting new value for parameter 'password': table = 'NewParam.dat' column = '1' row = '8'.
+Notify: Next row for parameter NewParam = 8 [table  = NewParam].
+Notify: Getting new value for parameter 'NewParam': table = 'NewParam.dat' column = '0' row = '8'.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=151620ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=151731ms: Connected socket [0] from 192.168.1.104:13524 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=151826ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=15)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=152462ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=15)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:09:46 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=153180ms: 6844-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=15)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 28, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=165869ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=165875ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=165978ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 15.6389 Wasted Time: 0.0014).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot107"
+Action.c(39): t=168177ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=168289ms: Connected socket [0] from 192.168.1.104:13527 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=168383ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=16)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=169129ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=16)
+Action.c(39):     {"username":"robot107","password":"a1234567"}
+Action.c(39): t=169534ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=16)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:10:03 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ8Ow.nUkx62IM_fv51gw2uPn7n5GdRiI; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=170495ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=16)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=170910ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 4.4841 Wasted Time: 0.0029).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 20.9489 Wasted Time: 0.0043).
+Ending action Action.
+Ending iteration 8.
+Starting iteration 9.
+Action.c(39): t=171739ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(39): Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter password = 9 [table  = password].
+Notify: Getting new value for parameter 'password': table = 'NewParam.dat' column = '1' row = '9'.
+Notify: Next row for parameter NewParam = 9 [table  = NewParam].
+Notify: Getting new value for parameter 'NewParam': table = 'NewParam.dat' column = '0' row = '9'.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=173525ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=173635ms: Connected socket [0] from 192.168.1.104:13528 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=173729ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=17)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=174270ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=17)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:10:08 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=174993ms: 6844-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=17)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 28, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=187492ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=187596ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=187699ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 15.3165 Wasted Time: 0.0015).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot108"
+Action.c(39): t=189664ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=189784ms: Connected socket [0] from 192.168.1.104:13531 to 132.232.44.158:2333 in 19 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=189868ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=18)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=190506ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=18)
+Action.c(39):     {"username":"robot108","password":"a1234567"}
+Action.c(39): t=190867ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=18)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:10:24 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ8UA.qbD_lBWk33QvZWJ7uquaLCktJic; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=191775ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=18)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=192195ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 4.0834 Wasted Time: 0.0076).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 20.0207 Wasted Time: 0.0091).
+Ending action Action.
+Ending iteration 9.
+Starting iteration 10.
+Action.c(39): t=193025ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(39): Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter password = 10 [table  = password].
+Notify: Getting new value for parameter 'password': table = 'NewParam.dat' column = '1' row = '10'.
+Notify: Next row for parameter NewParam = 10 [table  = NewParam].
+Notify: Getting new value for parameter 'NewParam': table = 'NewParam.dat' column = '0' row = '10'.
+Starting action Action.
+Action.c(6): Rendezvous xiaojiejie
+Action.c(8): Notify: Transaction "big" started.
+Action.c(10): Notify: Transaction "getcourse" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_custom_request("getcoures") started  	[MsgId: MMSG-26355]
+Action.c(15): t=195203ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(15): t=195312ms: Connected socket [0] from 192.168.1.104:13532 to 132.232.44.158:2333 in 8 ms  	[MsgId: MMSG-26000]
+Action.c(15): t=195409ms: 193-byte request headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=19)
+Action.c(15):     GET /getcoures?pagenum=1 HTTP/1.1\r\n
+Action.c(15):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(15):     Accept-Encoding: gzip, deflate\r\n
+Action.c(15):     Accept: */*\r\n
+Action.c(15):     Connection: Keep-Alive\r\n
+Action.c(15):     Host: 132.232.44.158:2333\r\n
+Action.c(15):     \r\n
+Action.c(15): t=195850ms: 304-byte response headers for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=19)
+Action.c(15):     HTTP/1.1 200 OK\r\n
+Action.c(15):     Server: gunicorn/20.0.4\r\n
+Action.c(15):     Date: Wed, 26 Feb 2020 14:10:29 GMT\r\n
+Action.c(15):     Connection: keep-alive\r\n
+Action.c(15):     Content-Type: application/json\r\n
+Action.c(15):     Content-Length: 6844\r\n
+Action.c(15):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(15):     Access-Control-Allow-Method: *\r\n
+Action.c(15):     Access-Control-Allow-Headers: *\r\n
+Action.c(15):     Access-Control-Allow-Credentials: true\r\n
+Action.c(15):     \r\n
+Action.c(15): t=196885ms: 6844-byte response body for "http://132.232.44.158:2333/getcoures?pagenum=1" (RelFrameId=1, Internal ID=19)
+Action.c(15):     {\n
+Action.c(15):       "data": {\n
+Action.c(15):         "contentlist": [\n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 10, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "follows": 14, \n
+Action.c(15):             "goods": 28, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 1, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.02.26", \n
+Action.c(15):             "title": "今天吃什么东西合适呢", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列，都是单初期的太极系列，都是
+Action.c(15):     单初期的太极系列，都是单初期的太极系列，都是单初期的太极系列
+Action.c(15):     ，都是单初期的太极系列，都是单初期的太极系列，都是单初期的太
+Action.c(15):     极系列，都是单初期的太极系列，都是单初期的太极系列，都是单初
+Action.c(15):     期的太极系列，都是单初期的太极系列，都是单初期的太极系列，都
+Action.c(15):     是单初期的太极系列，都是单初期的太极系列，都是单初期的太极系
+Action.c(15):     列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "初期的太极系列，都是单初期的太极系列，都是单初�
+Action.c(15):     ��的太极系列，都是单初期的太极系列，都是单初期的太极系列，都�
+Action.c(15):     ��单初期的太极系列，都是单初期的太极系列，都是单初期的太极系�
+Action.c(15):     ��，都是单初期的太极系列，都是单初期的太极系列，都是单初期的�
+Action.c(15):     ��极系列，都是单初期的太极系列，都是单初期的太极系列，都是单�
+Action.c(15):     ��期的太极系列，都是单初期的太极系列，都是单初期的太极系列，�
+Action.c(15):     ��是单初期的太极系列，都是单初期的太极系列，都是单初期的太极�
+Action.c(15):     ��列，都是单初期的太极系列，都是单初期的太极系列，都是�\x95<p><
+Action.c(15):     br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 44, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.26", \n
+Action.c(15):             "title": "初期的太极系列，都是单初期的太极系列，都是单初期
+Action.c(15):     的太极系列，都是单初期的太极系列", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "测试", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>测试成都</p><p><img src=\\"http://132.232.44.158:2333/imgs?imgn
+Action.c(15):     ame=2yuCGW1gnnr6liU.png\\" style=\\"max-width:100%;\\"><br></p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 43, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "测试教程", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "1", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "<p>1</p>", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 42, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.23", \n
+Action.c(15):             "title": "1", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍哈哈", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容哈哈�\x88", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 37, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 36, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.20", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 1, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 1, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 34, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.19", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 33, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 32, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }, \n
+Action.c(15):           {\n
+Action.c(15):             "brief": "介绍", \n
+Action.c(15):             "collections": 0, \n
+Action.c(15):             "content": "内容", \n
+Action.c(15):             "follows": 0, \n
+Action.c(15):             "goods": 0, \n
+Action.c(15):             "headpic": "headimg.jpg", \n
+Action.c(15):             "id": 31, \n
+Action.c(15):             "nickname": "浪晋", \n
+Action.c(15):             "times": "2020.01.18", \n
+Action.c(15):             "title": "为什么要学习测试", \n
+Action.c(15):             "userinfo": "好好学习�\x8A", \n
+Action.c(15):             "ximg": "ximg.jpg"\n
+Action.c(15):           }\n
+Action.c(15):         ], \n
+Action.c(15):         "counts": 27\n
+Action.c(15):       }, \n
+Action.c(15):       "msg": "操作成功�\x81", \n
+Action.c(15):       "status": 200\n
+Action.c(15):     }\n
+Action.c(15): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26548]
+Action.c(15): t=208890ms: Request done "http://132.232.44.158:2333/getcoures?pagenum=1"  	[MsgId: MMSG-26000]
+Action.c(15): t=208896ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
+Action.c(15): t=208998ms: Server 132.232.44.158 has shut down connection [0] prematurely (after receiving complete response of previous request)  	[MsgId: MMSG-26000]
+Action.c(15): Registered web_reg_find successful for "Text="status": 200" (count=1)  	[MsgId: MMSG-26364]
+Action.c(15): web_custom_request("getcoures") was successful, 6844 body bytes, 304 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "getcourse" ended with "Pass" status (Duration: 15.1444 Wasted Time: 0.0014).
+Action.c(28): Notify: Transaction "login" started.
+Action.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(37): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(37): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "NewParam" =  "robot109"
+Action.c(39): t=210972ms: Connecting [0] to host 132.232.44.158:2333  	[MsgId: MMSG-26000]
+Action.c(39): t=211094ms: Connected socket [0] from 192.168.1.104:13533 to 132.232.44.158:2333 in 19 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=211179ms: 257-byte request headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=20)
+Action.c(39):     POST /login HTTP/1.1\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Cache-Control: no-cache\r\n
+Action.c(39):     User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 132.232.44.158:2333\r\n
+Action.c(39):     Content-Length: 45\r\n
+Action.c(39):     \r\n
+Action.c(39): t=211905ms: 45-byte request body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=20)
+Action.c(39):     {"username":"robot109","password":"a1234567"}
+Action.c(39): t=212188ms: 417-byte response headers for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=20)
+Action.c(39):     HTTP/1.1 200 OK\r\n
+Action.c(39):     Server: gunicorn/20.0.4\r\n
+Action.c(39):     Date: Wed, 26 Feb 2020 14:10:46 GMT\r\n
+Action.c(39):     Connection: keep-alive\r\n
+Action.c(39):     Content-Type: application/json\r\n
+Action.c(39):     Content-Length: 63\r\n
+Action.c(39):     Access-Control-Allow-Origin: b''://b''\r\n
+Action.c(39):     Access-Control-Allow-Method: *\r\n
+Action.c(39):     Access-Control-Allow-Headers: *\r\n
+Action.c(39):     Access-Control-Allow-Credentials: true\r\n
+Action.c(39):     Vary: Cookie\r\n
+Action.c(39):     Set-Cookie: session=eyJsb2dpbmVycm9ybnVtIjoyfQ.XlZ8Zg.rPpi6z0nmLiL5N0hcsR_-e_Y_aE; HttpOnl
+Action.c(39):     y; Path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): t=212969ms: 63-byte response body for "http://132.232.44.158:2333/login" (RelFrameId=1, Internal ID=20)
+Action.c(39):     {\n
+Action.c(39):       "data": null, \n
+Action.c(39):       "msg": "密码错误", \n
+Action.c(39):       "status": 401\n
+Action.c(39):     }\n
+Action.c(39): HTML parsing not performed for Content-Type "application/json" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://132.232.44.158:2333/login"  	[MsgId: MMSG-26548]
+Action.c(39): t=213578ms: Request done "http://132.232.44.158:2333/login"  	[MsgId: MMSG-26000]
+Action.c(39): Error -26377: No match found for the requested parameter "token1". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
+Action.c(39): Notify: Saving Parameter "token1 = ".
+Action.c(39): Error -26366: "Text="status": 200" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(39): web_custom_request("login") highest severity level was "ERROR", 63 body bytes, 417 header bytes  	[MsgId: MMSG-26388]
+Action.c(39): Notify: Transaction "login" ended with "Fail" status (Duration: 4.1540 Wasted Time: 0.0013).
+Action.c(39): Notify: Transaction "big" ended with "Fail" status (Duration: 20.0199 Wasted Time: 0.0027).
+Ending action Action.
+Ending iteration 10.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Action.c(39): t=214931ms: Closed connection [0] to 132.232.44.158:2333 after completing 1 request  	[MsgId: MMSG-26000]
